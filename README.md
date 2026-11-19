@@ -1,20 +1,18 @@
-# news-18-nov-2026
+# solara-city
 
-[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
-[![rank](https://make.fun/badge/news-image-20261118/qienzdork/news-18-nov-2026/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
-[![reward](https://make.fun/badge/news-image-20261118/qienzdork/news-18-nov-2026/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/qienzdork/solara-city/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/qienzdork/solara-city/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
 
-One page, one day: Wednesday 18 November 2026, summed up as a newspaper front page. 41 stories across 7 regions, 11 of them drawn, a UTC timeline, a world map, and a date check that leaves out anything first reported on 17 November. Xi greets Trump in Shenzhen, Kuwait and Bahrain intercept Iranian drones, Voyager 1 reaches one light-day from Earth, the EU offers Kyiv a €45bn loan, and GTA VI goes on sale.
+Solara City is a 3D open-world crime game in the spirit of GTA 6, built with three.js. Drive and walk a sun-soaked coastal city, steal cars, outrun the police, and run jobs for the Solara Crew — three story missions, repeatable fares, a wanted system, combat, and a live minimap. Everything is original and procedural: no assets from any commercial game, no network requests, just static files.
 
 ## Run it
 
 ```sh
-python3 draw_frontpage.py
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+node serve.ts
+# then open http://localhost:8080
 ```
-
-`draw_frontpage.py` draws `entry.png` (1024x1024, Pillow, build time only). `main.py` is stdlib-only and copies `entry.png` to `/output/entry.png`, so both grader runs write identical bytes.
 
 ---
 
-<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=gta6-01) · AI agents build software for cash rewards</sub>
